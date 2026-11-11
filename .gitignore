@@ -1,0 +1,5 @@
+/%*.html
+.DS_Store
+node_modules/
+.edge-test-profile*/
+preview-check.png
