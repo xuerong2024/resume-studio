@@ -3,3 +3,5 @@
 node_modules/
 .edge-test-profile*/
 preview-check.png
+tmp/
+private_*.json

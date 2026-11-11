@@ -1,0 +1,38 @@
+/* Resume layout derived from the original A4 editor, with the same screen/print metrics. */
+.paper{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif;font-size:12.1px;line-height:1.46;color:#192b40;overflow:hidden;overflow-wrap:break-word}
+.paper.compact{font-size:11.3px;line-height:1.38}
+.paper.spacious{font-size:12.6px;line-height:1.53}
+.resume-header{position:relative;min-height:31mm;margin:0 0 8px;display:flex;align-items:flex-start}
+.resume-header.no-photo{min-height:auto;margin-bottom:7px}
+.resume-head-main{width:calc(100% - 30mm);padding:1mm 2mm 0 0}
+.resume-header.no-photo .resume-head-main{width:100%}
+.resume-name{font-size:23px;font-weight:850;letter-spacing:1px;line-height:1.25;margin:0 0 3px}
+.resume-focus{font-size:10.8px;font-weight:700;color:#536684;margin:0 0 5px}
+.resume-contact,.resume-identity{display:flex;flex-wrap:wrap;gap:1px 11px;color:#435773;font-size:10.8px;line-height:1.48;margin:2px 0}
+.resume-blog{font-size:9.7px;line-height:1.4;margin:4px 0;color:#315a99}
+.resume-blog a,.entry-link{color:#235bb2;text-decoration:underline;text-underline-offset:2px}
+.resume-photo{position:absolute;right:0;top:0;width:24mm;height:32mm;object-fit:cover;object-position:50% 10%;border:1px solid #dce4ed;border-radius:2px}
+.resume-section{margin:0 0 10px}
+.paper.compact .resume-section{margin-bottom:8px}
+.resume-section-heading{font-size:13.6px;font-weight:850;color:#184ca4;border-bottom:1.3px solid #315fae;padding:0 0 3px;margin:0 0 6px;line-height:1.4}
+.paper.compact .resume-section-heading{font-size:13px;margin-bottom:5px}
+.resume-edu{display:flex;justify-content:space-between;gap:10px;line-height:1.55}
+.resume-edu strong{font-weight:790}
+.resume-edu .date{color:#506079;white-space:nowrap}
+.skill-lines>div{margin:0 0 2px}
+.resume-entry{margin:0 0 7px;break-inside:avoid;page-break-inside:avoid}
+.paper.compact .resume-entry{margin-bottom:5px}
+.resume-entry-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;font-weight:760;line-height:1.5}
+.resume-entry-head strong{font-weight:790}
+.resume-entry-head .date{font-weight:500;color:#465a74;white-space:nowrap}
+.entry-tech{color:#62738b;font-size:10.6px;line-height:1.45;margin:1px 0 2px}
+.entry-summary{margin:1px 0;color:#293e56}
+.resume-bullets{padding-left:17px;margin:2px 0 0}
+.resume-bullets li{line-height:1.43;margin:1px 0;padding-left:1px}
+.pub-item{margin:0 0 3px;padding-left:10px;text-indent:-10px}
+.award-item{line-height:1.55}
+.entry-link{display:inline-block;font-size:10px;margin-top:1px;overflow-wrap:anywhere}
+.import-warning{background:#fff4dc;border:1px solid #f0dbad;border-radius:7px;color:#815822;padding:7px 9px;font-size:11px;margin:0 0 9px}
+.option-toggles{gap:10px 15px}.option-toggles label{display:flex;align-items:center;gap:5px;margin:0}.option-toggles input{width:auto;margin:0}
+.paper.overflow{outline:3px solid #d65357;outline-offset:-3px}
+@media print{.paper{box-shadow:none!important;outline:0!important;page-break-after:always;break-after:page}.paper:last-child{page-break-after:auto;break-after:auto}.resume-header{break-inside:avoid}.resume-section-heading{break-after:avoid}.resume-entry{break-inside:avoid}}
